@@ -2,6 +2,7 @@
 
 HOME="/home/ubuntu/"
 APPS_DIR="${HOME}/apps"
+SCRIPTS_DIR="${HOME}/server-manage"
 
 echo "
 #### init apps directory ####
@@ -58,6 +59,7 @@ echo "
 "
 
 # startup cloudwatch-agent
+cd $SCRIPTS_DIR
 sudo ./startup-cloudwatch-agent.sh
 
 
