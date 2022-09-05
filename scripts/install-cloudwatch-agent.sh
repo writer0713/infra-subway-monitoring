@@ -23,7 +23,7 @@ echo "
 ...
 "
 cd $SCRIPTS_DIR
-sudo cp ../configs/amazon-cloudwatch-agent.json /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json
+sudo cp ../configs/amazon-cloudwatch-agent.json /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent.json
 
 echo "
 #### successfully installed!! ####
