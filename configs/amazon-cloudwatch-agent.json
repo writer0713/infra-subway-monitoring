@@ -1,0 +1,29 @@
+{
+  "agent": {
+          "metrics_collection_interval": 60,
+          "run_as_user": "root"
+  },
+  "metrics": {
+          "metrics_collected": {
+                  "disk": {
+                          "measurement": [
+                                  "used_percent",
+                                  "used",
+                                  "total"
+                          ],
+                          "metrics_collection_interval": 60,
+                          "resources": [
+                                  "*"
+                          ]
+                  },
+                  "mem": {
+                          "measurement": [
+                                  "mem_used_percent",
+                                  "mem_total",
+                                  "mem_used"
+                          ],
+                          "metrics_collection_interval": 60
+                  }
+          }
+  }
+}
